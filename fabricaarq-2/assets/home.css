@@ -1,0 +1,421 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  //CSS
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Fill the menu with white color */
+  .cs-menu-button .cs-ico-menu,
+  .cs-menu-button .cs-ico-menu-close {
+    fill: white !important;
+  }
+
+  /* Changes the size of the header image */
+  header .cs-image-widget .cs-chosen-image {
+    width: 14rem !important;
+  }
+
+  /* Changes the size of each section */
+  section .text-editor h2 span span {
+    font-size: 1.8rem !important;
+    // optional text enhancement
+    text-shadow: 1px 1px 2px grey;
+  }
+
+  /* Add footer margin */
+  footer {
+    margin: 3rem 0 !important;
+  }
+
+  /* Align itens of footer */
+  footer .cs-section-inner .cs-boxes .cs-box {
+    flex: 1 1 auto !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section {
+    min-height: 100vh !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section .cs-section-inner {
+    min-height: 100vh !important;
+    background-size: 100vw 100vh !important;
+  }
+
+  /* Changes menu size */
+  header .cs-section-inner .cs-menu .cs-menu-button {
+    width: 3rem !important;
+    height: 3rem !important;
+    position: fixed !important;
+  }
+
+  /* overrides instagram icon size - need to have the image uploaded on server */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/fa0730d1cd92a1d3797b9288ece62970cc1713d289bd7f3cffeadd9ce78e9d2b");
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides instagram icon size - hide the current image */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a img {
+    display: none !important;
+  }
+
+  /* overrides facebook icon size - need to have the image uploaded on server */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/6fbffb0f7451cd85134254dd74cd75b5953f14c3f9d2fc78a0ed8977bc46de7f");
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides facebook icon size - hide the current image */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a img {
+    display: none !important;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Fill the menu with white color */
+  .cs-menu-button .cs-ico-menu,
+  .cs-menu-button .cs-ico-menu-close {
+    fill: white !important;
+  }
+
+  /* Changes the size of the header image */
+  header .cs-image-widget .cs-chosen-image {
+    width: 14rem !important;
+  }
+
+  /* Changes the size of each section */
+  section .text-editor h2 span span {
+    font-size: 1.8rem !important;
+    // optional text enhancement
+    text-shadow: 1px 1px 2px grey;
+  }
+
+  /* Add footer margin */
+  footer {
+    margin: 3rem 0 !important;
+  }
+
+  /* Align itens of footer */
+  footer .cs-section-inner .cs-boxes .cs-box {
+    flex: 1 1 auto !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section {
+    min-height: 100vh !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section .cs-section-inner {
+    min-height: 100vh !important;
+    background-size: auto 100vh !important;
+  }
+
+  /* Changes menu size */
+  header .cs-section-inner .cs-menu .cs-menu-button {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+
+  /* overrides instagram icon size - need to have the image uploaded on server */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/fa0730d1cd92a1d3797b9288ece62970cc1713d289bd7f3cffeadd9ce78e9d2b");
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides instagram icon size - hide the current image */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a img {
+    display: none !important;
+  }
+
+  /* overrides facebook icon size - need to have the image uploaded on server */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/6fbffb0f7451cd85134254dd74cd75b5953f14c3f9d2fc78a0ed8977bc46de7f");
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides facebook icon size - hide the current image */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a img {
+    display: none !important;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Fill the menu with white color */
+  .cs-menu-button .cs-ico-menu,
+  .cs-menu-button .cs-ico-menu-close {
+    fill: white !important;
+  }
+
+  /* Changes the size of the header image */
+  header .cs-image-widget .cs-chosen-image {
+    width: 14rem !important;
+  }
+
+  /* Changes the size of each section */
+  section .text-editor h2 span span {
+    font-size: 1.8rem !important;
+    // optional text enhancement
+    text-shadow: 1px 1px 2px grey;
+  }
+
+  /* Add footer margin */
+  footer {
+    margin: 3rem 0 !important;
+  }
+
+  /* Align itens of footer */
+  footer .cs-section-inner .cs-boxes .cs-box {
+    flex: 1 1 auto !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section {
+    min-height: 100vh !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section .cs-section-inner {
+    min-height: 100vh !important;
+    background-size: 100vw 100vh !important;
+  }
+
+  /* Changes menu size */
+  header .cs-section-inner .cs-menu .cs-menu-button {
+    width: 3rem !important;
+    height: 3rem !important;
+    position: fixed !important;
+  }
+
+  /* overrides instagram icon size - need to have the image uploaded on server */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/fa0730d1cd92a1d3797b9288ece62970cc1713d289bd7f3cffeadd9ce78e9d2b");
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides instagram icon size - hide the current image */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a img {
+    display: none !important;
+  }
+
+  /* overrides facebook icon size - need to have the image uploaded on server */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/6fbffb0f7451cd85134254dd74cd75b5953f14c3f9d2fc78a0ed8977bc46de7f");
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides facebook icon size - hide the current image */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a img {
+    display: none !important;
+  }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Fill the menu with white color */
+  .cs-menu-button .cs-ico-menu,
+  .cs-menu-button .cs-ico-menu-close {
+    fill: white !important;
+  }
+
+  /* Changes the size of the header image */
+  header .cs-image-widget .cs-chosen-image {
+    width: 14rem !important;
+  }
+
+  /* Changes the size of each section */
+  section .text-editor h2 span span {
+    font-size: 1.8rem !important;
+    // optional text enhancement
+    text-shadow: 1px 1px 2px grey;
+  }
+
+  /* Add footer margin */
+  footer {
+    margin: 3rem 0 !important;
+  }
+
+  /* Align itens of footer */
+  footer .cs-section-inner .cs-boxes .cs-box {
+    flex: 1 1 auto !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section {
+    min-height: 100vh !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section .cs-section-inner {
+    min-height: 100vh !important;
+    background-size: 100vw 100vh !important;
+  }
+
+  /* Changes menu size */
+  header .cs-section-inner .cs-menu .cs-menu-button {
+    width: 3rem !important;
+    height: 3rem !important;
+    position: fixed !important;
+  }
+
+  /* overrides instagram icon size - need to have the image uploaded on server */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/fa0730d1cd92a1d3797b9288ece62970cc1713d289bd7f3cffeadd9ce78e9d2b");
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides instagram icon size - hide the current image */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a img {
+    display: none !important;
+  }
+
+  /* overrides facebook icon size - need to have the image uploaded on server */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/6fbffb0f7451cd85134254dd74cd75b5953f14c3f9d2fc78a0ed8977bc46de7f");
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides facebook icon size - hide the current image */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a img {
+    display: none !important;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Fill the menu with white color */
+  .cs-menu-button .cs-ico-menu,
+  .cs-menu-button .cs-ico-menu-close {
+    fill: white !important;
+  }
+
+  /* Changes the size of the header image */
+  header .cs-image-widget .cs-chosen-image {
+    width: 14rem !important;
+  }
+
+  /* Changes the size of each section */
+  section .text-editor h2 span span {
+    font-size: 1.8rem !important;
+    // optional text enhancement
+    text-shadow: 1px 1px 2px grey;
+  }
+
+  /* Add footer margin */
+  footer {
+    margin: 3rem 0 !important;
+  }
+
+  /* Align itens of footer */
+  footer .cs-section-inner .cs-boxes .cs-box {
+    flex: 1 1 auto !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section {
+    min-height: 360px !important;
+  }
+
+  /* Keeps background image with 100% of view size */
+  section.cs-section .cs-section-inner {
+    min-height: 360px !important;
+    background-size: auto 360px !important;
+  }
+
+  /* Changes menu size */
+  header .cs-section-inner .cs-menu .cs-menu-button {
+    width: 3rem !important;
+    height: 3rem !important;
+    position: fixed !important;
+  }
+
+  /* overrides instagram icon size - need to have the image uploaded on server */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/fa0730d1cd92a1d3797b9288ece62970cc1713d289bd7f3cffeadd9ce78e9d2b");
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides instagram icon size - hide the current image */
+  div[id="2fb1a1ac-cd77-4cad-bdd2-c307fd9b6710"] a img {
+    display: none !important;
+  }
+
+  /* overrides facebook icon size - need to have the image uploaded on server */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a {
+    display: block !important;
+    background: url("https://yata2.lss.locawebcorp.com.br/6fbffb0f7451cd85134254dd74cd75b5953f14c3f9d2fc78a0ed8977bc46de7f");
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* overrides facebook icon size - hide the current image */
+  div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a img {
+    display: none !important;
+  }
+}
