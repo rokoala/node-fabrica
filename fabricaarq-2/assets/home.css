@@ -31,11 +31,6 @@
     text-shadow: 1px 1px 2px grey;
   }
 
-  /* Add footer margin */
-  footer {
-    margin: 3rem 0 !important;
-  }
-
   /* Align itens of footer */
   footer .cs-section-inner .cs-boxes .cs-box {
     flex: 1 1 auto !important;
@@ -114,11 +109,6 @@
     text-shadow: 1px 1px 2px grey;
   }
 
-  /* Add footer margin */
-  footer {
-    margin: 3rem 0 !important;
-  }
-
   /* Align itens of footer */
   footer .cs-section-inner .cs-boxes .cs-box {
     flex: 1 1 auto !important;
@@ -194,11 +184,6 @@
     font-size: 1.8rem !important;
     // optional text enhancement
     text-shadow: 1px 1px 2px grey;
-  }
-
-  /* Add footer margin */
-  footer {
-    margin: 3rem 0 !important;
   }
 
   /* Align itens of footer */
@@ -279,11 +264,6 @@
     text-shadow: 1px 1px 2px grey;
   }
 
-  /* Add footer margin */
-  footer {
-    margin: 3rem 0 !important;
-  }
-
   /* Align itens of footer */
   footer .cs-section-inner .cs-boxes .cs-box {
     flex: 1 1 auto !important;
@@ -359,11 +339,6 @@
     font-size: 1.8rem !important;
     // optional text enhancement
     text-shadow: 1px 1px 2px grey;
-  }
-
-  /* Add footer margin */
-  footer {
-    margin: 3rem 0 !important;
   }
 
   /* Align itens of footer */

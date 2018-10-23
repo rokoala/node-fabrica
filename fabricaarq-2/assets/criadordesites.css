@@ -36,7 +36,7 @@
   
     /* Add footer margin */
     footer{
-      margin: 3rem 0 !important;
+      margin-top: 3rem !important;
     }
     
     /* Align itens of footer */
@@ -80,6 +80,11 @@
     div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"] a img{
         display:none !important;
     }
+
+    header[id="d8fcb436-33bd-41c2-a492-e957f18536fa"] {
+      min-height: 3rem !important;
+      height: 3rem !important;
+    }
   }
   
   /* 
@@ -107,7 +112,7 @@
   
     /* Add footer margin */
     footer{
-      margin: 3rem 0 !important;
+      margin-top: 3rem !important;
     }
     
     /* Align itens of footer */
@@ -159,6 +164,11 @@
     div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"].cs-widget{
         margin:4px;
     }
+
+    header[id="d8fcb436-33bd-41c2-a492-e957f18536fa"] {
+      min-height: 3rem !important;
+      height: 3rem !important;
+    }
   }
   
   /* 
@@ -188,7 +198,7 @@
   
     /* Add footer margin */
     footer{
-      margin: 3rem 0 !important;
+      margin-top: 3rem !important;
     }
     
     /* Align itens of footer */
@@ -241,6 +251,11 @@
     div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"].cs-widget{
         margin:4px;
     }
+
+    header[id="d8fcb436-33bd-41c2-a492-e957f18536fa"] {
+      min-height: 3rem !important;
+      height: 3rem !important;
+    }
   }
   
   /* 
@@ -263,7 +278,7 @@
 
     /* Add footer margin */
     footer{
-      margin: 3rem 0 !important;
+      margin-top: 3rem !important;
     }
     
     /* Align itens of footer */
@@ -316,6 +331,11 @@
     div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"].cs-widget{
         margin:4px;
     }
+
+    header[id="d8fcb436-33bd-41c2-a492-e957f18536fa"] {
+      min-height: 3rem !important;
+      height: 3rem !important;
+    }
   }
   
   
@@ -337,9 +357,11 @@
     
     /* Add footer margin */
     footer{
-      margin: 3rem 0 !important;
+      margin-top: 3rem !important;
     }
-    
+
+
+
     /* Align itens of footer */
     footer .cs-section-inner .cs-boxes .cs-box{
       flex: 1 1 auto !important;
@@ -389,5 +411,10 @@
 
     div[id="aa70945e-f6d0-4125-b34a-5d7097e9859c"].cs-widget{
         margin:4px;
+    }
+
+    header[id="d8fcb436-33bd-41c2-a492-e957f18536fa"] {
+      min-height: 3rem !important;
+      height: 3rem !important;
     }
   }
